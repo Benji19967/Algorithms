@@ -13,7 +13,7 @@ typedef pair<int, int> ii;
 typedef vector<int> vi;
 typedef vector<ii> vii;
 
-// Enter number of Vertices and Edges followed by E lines of u v w.
+// Enter number of Vertices V and Edges E followed by E lines of u v w.
 /*
 5 7
 0 1 2
