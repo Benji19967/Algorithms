@@ -1,7 +1,8 @@
 /*  - Union-Find Disjoint Sets is a custom Data Structure that allows to efficiently check if an element is part of a set,
-      if two elements are part of the same set or to combine to disjoint sets into one.
+      if two elements are part of the same set or to combine two disjoint sets into one.
     - The amortized time complexity of these operations is O(1).
-    - We keep track of the parent and the rank for each vertex, the rank being an upper bound on the height of a tree representing a set.
+    - We keep track of the parent and the rank for each vertex, the rank being an upper bound on the height of a tree
+      representing a set.
     - Path compression is used in the findSet() operation to allow faster lookup in subsequent calls to the Method.
 */
 
