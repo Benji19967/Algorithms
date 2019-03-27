@@ -8,10 +8,10 @@
 using namespace std;
 
 int LCS(string &X, string &Y) {
-	int n = X.length();
+    int n = X.length();
 	int m = Y.length();
 
-	int dp[2][m+1];
+    int dp[2][m+1];
 	bool curr;
 
 	for(int i = 0; i <= n; i++) {
