@@ -1,3 +1,6 @@
+// Time: O(n*m)
+// Space: O(m) 
+
 #include <iostream>
 #include <vector>
 #include <string>
