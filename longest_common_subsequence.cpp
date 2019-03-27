@@ -8,7 +8,7 @@
 using namespace std;
 
 int LCS(string &X, string &Y) {
-	int n = X.length();
+    int n = X.length();
 	int m = Y.length();
 
 	int dp[2][m+1];
@@ -16,7 +16,7 @@ int LCS(string &X, string &Y) {
 
 	for(int i = 0; i <= n; i++) {
 		
-		curr = i & 1;  // Swap curr and prev rows of dp on every iteration
+	    curr = i & 1;  // Swap curr and prev rows of dp on every iteration
 	
 		for(int j = 0; j <= m; j++) {
 			if(i == 0 || j == 0) {
