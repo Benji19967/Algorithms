@@ -28,7 +28,7 @@ def ok_to_place(board, i, j) -> bool:
             return False
         row -= 1
 
-    # diagonal top-left
+    # diagonal up-left
     row = i - 1
     col = j - 1
     while row >= 0 and col >= 0:
@@ -37,7 +37,7 @@ def ok_to_place(board, i, j) -> bool:
         row -= 1
         col -= 1
 
-    # diagonal top-right
+    # diagonal up-right
     row = i - 1
     col = j + 1
     while row >= 0 and col < N:
