@@ -1,3 +1,5 @@
+# See notes/backtracking.md
+
 N = 8
 
 
